@@ -1,0 +1,74 @@
+.App{
+  margin: 0;
+  font-family: 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.debug{ 
+  border-style: solid; }
+
+.flexParent{ 
+  display:flex;   
+  flex-direction: row;
+ 
+}
+
+div.instructionstext{
+  text-align: center;
+  width: 60%;
+  display: block;
+  
+  
+}
+
+.sidebar{ 
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-color: black; 
+  text-align: center; 
+  
+  }
+
+.food{
+  text-align:center; 
+  display:inline-block;
+  width: 200px; 
+  height: 200px;
+  vertical-align: top;
+  
+}
+
+img{
+height: 100px;
+display: block;
+}
+image{
+  height: 100px;
+  display: block; 
+}
+
+.mainContent{ 
+  flex: 1;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-color: black;
+  text-align: center;
+ 
+}
+div.hide{
+  display: none;
+
+}
+
+@media ( max-width: 400px ){  
+  .flexParent{ 
+      flex-direction: column;} 
+}
+  
+
+
